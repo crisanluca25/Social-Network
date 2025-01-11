@@ -38,13 +38,13 @@ By combining clean code principles with practical functionality, this project of
 ## Future Enhancements 🎯
 
 - Notifications System 🔔
- - Implement real-time notifications for friend requests, messages, and other important events.
+  - Implement real-time notifications for friend requests, messages, and other important events.
 
 - Enhanced Security Features 🛡️
   - Introduce two-factor authentication (2FA) for improved account security.
 
 - Mobile App Integration 📱
- - Develop a companion mobile app for a seamless social networking experience on the go.
+  - Develop a companion mobile app for a seamless social networking experience on the go.
 
 
 
