@@ -1,0 +1,47 @@
+/* Stiluri pentru fereastra de adăugare prieten (AddFriendDialog) */
+.dialog-root {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.dialog-root label {
+    font-size: 16px;
+    color: #333;
+}
+
+.dialog-root input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.dialog-root button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dialog-root button:hover {
+    background-color: #45a049;
+}
+
+.dialog-root .cancel-button {
+    background-color: #f44336;
+}
+
+.dialog-root .cancel-button:hover {
+    background-color: #e53935;
+}

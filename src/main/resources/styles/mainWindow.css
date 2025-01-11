@@ -1,0 +1,79 @@
+/* Styling for the main window layout */
+.root {
+    -fx-padding: 20;
+    -fx-spacing: 15;
+    -fx-alignment: center;
+    -fx-font-family: Arial, sans-serif;
+    -fx-background-color: #f4f4f9;
+}
+
+/* Styling for the title label */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-alignment: center;
+}
+
+/* Styling for the friends list */
+.list-view {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-background-radius: 5;
+    -fx-background-color: #ffffff;
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+
+/* Styling for the add friend grid */
+.grid-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+/* Styling for labels inside the grid */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555555;
+}
+
+/* Styling for the input field */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+/* Styling for the add button */
+.button {
+    -fx-background-color: #FF3131;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-border: none;
+    -fx-cursor: pointer;
+    -fx-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color: #880808;
+}
+
+.button:pressed {
+    -fx-background-color: #880808;
+}
+
+/* Styling for alerts (optional) */
+.dialog-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-background-radius: 10;
+}

@@ -1,0 +1,64 @@
+/* Containerul principal pentru fereastra de chat */
+.chat-window {
+    -fx-background-color: #f7f7f7;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+/* Lista de mesaje */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d3d3d3;
+    -fx-border-width: 1px;
+    -fx-pref-height: 300px;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* Mesajele expeditorului curent */
+.list-view .list-cell {
+    -fx-background-color: white;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-family: "Arial";
+}
+
+/* Mesajele trimise de utilizatorul curent */
+.list-view .list-cell:filled {
+    -fx-background-color: #ffffff;  /* Verde deschis pentru mesaje expeditor */
+}
+
+/* Mesajele trimise de destinatar */
+.list-view .list-cell:empty {
+    -fx-background-color: #fff;  /* Alb pentru mesaje de la destinatar */
+}
+
+/* Câmpul de text pentru scrierea mesajelor */
+.text-field {
+    -fx-pref-width: 100%;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5px;
+}
+
+/* Butonul de trimitere a mesajului */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #cc2525;
+}
+
+.button:pressed {
+    -fx-background-color: #cc2525;
+}

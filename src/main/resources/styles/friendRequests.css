@@ -1,0 +1,46 @@
+/* Stiluri pentru root-ul cererilor de prietenie */
+.friend-requests-root {
+    -fx-padding: 20px;
+    -fx-background-color: #f9f9f9;
+}
+
+/* Stiluri pentru fiecare rând de cerere */
+.request-row {
+    -fx-alignment: center;
+    -fx-padding: 10px;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #ccc;
+}
+
+
+/* Stiluri pentru eticheta care afișează utilizatorul care a trimis cererea */
+.sender-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Stiluri pentru butonul de acceptare */
+.accept-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-border-color: transparent;
+}
+
+.accept-button:hover {
+    -fx-background-color: #cc2525;
+}
+
+/* Stiluri pentru butonul de respingere */
+.reject-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px;
+    -fx-border-color: transparent;
+}
+
+.reject-button:hover {
+    -fx-background-color: #cc2525;
+}
